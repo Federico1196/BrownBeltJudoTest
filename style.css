@@ -1,5 +1,6 @@
 *{
     background-color: rgb(230, 230, 230);
+    font-family: sans-serif;
 }
 
 
@@ -13,6 +14,7 @@
     color: brown;
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 div .Gokyo{
