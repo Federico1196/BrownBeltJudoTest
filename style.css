@@ -23,7 +23,7 @@ div .Gokyo{
     align-items: center;
     padding: 4%;
     font-size: large;
-    padding-right: 12%;
+    padding-right: 6%;
 }
 
 .refresh {
@@ -37,4 +37,10 @@ div .Gokyo{
     border: none;
     padding: 15px 32px;
 }
+
+@media only screen and (max-width: 600px) {
+    div .Gokyo{
+        padding-right: 12%;
+    }
+  }
 
