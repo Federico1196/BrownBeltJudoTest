@@ -164,6 +164,7 @@ document.addEventListener("DOMContentLoaded", displayTest);
 const refresh = document.querySelector('.refresh');
 const refreshPage = () => {
     location.reload();
+    window.scrollTo(0, 0);
 }
 
 refresh.addEventListener('click', refreshPage);
